@@ -1,0 +1,98 @@
+
+.cover{
+    position: absolute;
+    background-color: #040215ce;
+    height: 750px;
+    width: 100%;
+    z-index: 1000;
+    top: 0%
+  }
+
+
+  .title{
+      position:absolute;
+      z-index: 2000;
+      top: 35%;
+      color: white;
+      text-align: center;
+      width: 100%;
+      height: 100%;
+     
+  }
+
+  .greeting{
+      font-size: 500%;
+      margin: 0px;
+  }
+
+
+  .header{
+      position: fixed;
+      top: 0%;
+      z-index: 3000;
+      background-color: #04021500;
+      width: 100%;
+      padding-left: 40px;
+      padding-top: 30px;
+  }
+
+  .nav-bar{
+      float: right;
+      margin-right: 100px;
+  }
+
+  .nav-bar li{
+      color: white;
+      display: inline-flex;
+      margin-left: 20px;
+  }
+
+  ul li a{
+    color: white;
+    font-weight: 600;
+    font-size: larger;
+    letter-spacing: 1px;
+    text-decoration: none;
+    
+}
+
+.headers{
+    text-align: center;
+    color: #040215ce;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container{
+    width: 77%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container .sum{
+    text-align: center;
+    color: #040215a2;
+}
+
+.project-img{
+    width: 55%;
+    border-radius: 7px;
+    margin-right: 20px;
+}
+
+.project-name{
+
+}
+
+.project-desc{
+    text-align: left;
+    color: #040215a2;
+    padding-right: 5px;
+}
+
+.tech{
+  
+    width: fit-content;
+    float: left;
+}

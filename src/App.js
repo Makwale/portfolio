@@ -1,25 +1,58 @@
 import logo from './logo.svg';
 import './App.css';
+import Intro from './components/Intro';
+import Header from './components/Header';
+import { Component } from 'react';
+import Summary from './components/Summary';
+import Stacks from './components/Stacks';
+import Projects from './components/Projects';
 
-function App() {
+import aos from 'aos'
+
+// class App extends Component {
+
+//   constructor(){
+//     super()
+
+//   }
+
+//   render(){
+//     return (
+//       <div  >
+//          {/* <Header/> */}
+//           sddsfdsfdsfsdfdsfdsdfsf
+//           {/* <Intro /> */}
+//           <h1 >Hello world</h1>
+//           sffsdfd
+         
+//           {/* <Summary />
+//           <Stacks/>
+//           <Projects/> */}
+//       </div>
+     
+//     );
+//   }
+  
+
+// }
+
+function App(){
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+          <div  >
+             <Header/>
+              
+              <Intro />
+              
+              <Summary  />
+        
+              <Stacks/>
+              
+              <Projects/>
+          </div>
+         
   );
+  
 }
 
 export default App;
